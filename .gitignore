@@ -49,9 +49,5 @@ logs
 tmp/
 temp/
 
-# Claude Code (track .claude/settings.json; ignore personal/per-session state)
-.claude/settings.local.json
-.claude/memory/
-.claude/agent-memory/
-.claude/projects/
-.claude/.session*
+# Claude Code (all local agent state)
+.claude/
